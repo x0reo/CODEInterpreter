@@ -1,0 +1,17 @@
+BEGIN CODE
+    i = 1
+    name = 'John "Nickname" Doe'
+    
+    # This is a comment
+    
+    IF (i < 8)
+    BEGIN IF
+        DISPLAY:"i isn't big enough - " + i + " - so let's make it bigger!"
+        
+        i = i + 4
+    END IF    
+    
+    j = i
+    
+    DISPLAY: "i is " & i & "."
+END CODE
